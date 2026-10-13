@@ -290,7 +290,7 @@ class HomeFragment : Fragment() {
 
     private fun updateHomeHeaderAndVoiceStatus() {
         if (_binding == null) return
-        val userName = preferences.userName.ifBlank { "Rehaan" }
+        val userName = preferences.userName.ifBlank { "Satyam sahani" }
         val hour = java.util.Calendar.getInstance().get(java.util.Calendar.HOUR_OF_DAY)
         val timeGreeting = when (hour) {
             in 4..11 -> "Good morning"
