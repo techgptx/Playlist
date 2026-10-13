@@ -78,7 +78,7 @@
             android:id="@+id/tvGreeting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome, Rehaan"
+            android:text="Welcome, Satyam"
             android:textColor="?attr/themeTextPrimary"
             android:textSize="14sp"
             android:textStyle="bold"
